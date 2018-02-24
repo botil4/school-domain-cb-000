@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    roster.sort.flatten
+    roster[grade].sort
   end
 
 end
