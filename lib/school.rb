@@ -18,4 +18,8 @@ class School
     roster[int]
   end
 
+  def sort
+    roster.sort
+  end
+
 end
