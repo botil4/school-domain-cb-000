@@ -24,7 +24,7 @@ class School
       sorted[grade] = []
       sorted[grade] = students_array.sort
     end
-
+    sorted
   end
 
 end
