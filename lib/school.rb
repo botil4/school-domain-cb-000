@@ -19,7 +19,11 @@ class School
   end
 
   def sort
-    roster.keys.sort
+    sorted = {}
+    roster.each do |grade, students_array|
+      sorted[grade] = []
+      sorted[grade] = students_array.sort
+    end
 
   end
 
