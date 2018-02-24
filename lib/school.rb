@@ -21,7 +21,6 @@ class School
   def sort
     sorted = {}
     roster.each do |grade, students_array|
-      sorted[grade] = []
       sorted[grade] = students_array.sort
     end
     sorted
