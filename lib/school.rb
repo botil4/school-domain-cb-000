@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    roster.values.sort
+    roster.keys.sort
 
   end
 
